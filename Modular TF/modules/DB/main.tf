@@ -12,7 +12,7 @@ resource "google_sql_database_instance" "local_infile" {
   }
 }
 }
-resource "google_sql_database_instance" "skip" {
+resource "google_sql_database_instance" "skip123" {
   name             = var.mysqldbname
   database_version = var.mysqldbversion
   region           = var.mysqlregion
