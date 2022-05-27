@@ -17,7 +17,7 @@ variable "postgredbname" {
 
 
 variable "postgredbversion" {
-  default = "POSTGRES_11"
+  default = "POSTGRES_10"
 }
 
 variable "postgreregion" {
